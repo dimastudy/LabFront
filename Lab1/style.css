@@ -10,10 +10,9 @@
 
 
 
-* {box-sizing: border-box;}
 body{margin: 0;}
-div {padding: 8px 0}
-form {
+.d3 div {padding: 8px 0}
+.d3 form {
     position: relative;
     width: 720px;
     margin: 0 auto;
