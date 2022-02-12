@@ -10,7 +10,7 @@
 
 
 
-/** {box-sizing: border-box;}*/
+* {box-sizing: border-box;}
 body{margin: 0;}
 div {padding: 8px 0}
 form {
@@ -69,6 +69,7 @@ form {
 .tableChoice td:first-child {
     color: white;
     padding: 10px 20px;
+    text-align: center;
 }
 
 .tableChoice th {
