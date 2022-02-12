@@ -3,21 +3,12 @@
     color: black;
     margin-left: 24px;
 }
-
 .lineStyle {
     height: 2px;
     background: black;
 }
 
-.searchStyle {
-    width: 30%;
-    clear: both;
-    text-align: center;
-    border-width: 2px;
-    height: 24px;
-    border-radius: 12px;
-    border-color: gray;
-}
+
 
 /** {box-sizing: border-box;}*/
 body{margin: 0;}
@@ -30,10 +21,11 @@ form {
 .d3 {background: #b6b2b2;}
 .d3 form {
     margin-left: 24px;
-    background: #A3D0C3;
+    background: #ffffff;
 }
 .d3 input, .d3 button {
     border: none;
+
     outline: none;
     background: transparent;
 }
@@ -43,7 +35,8 @@ form {
     padding-left: 15px;
 }
 .d3 button {
-    height: 42px;
+    background: #de7c5b;
+    height: 44px;
     width: 42px;
     position: absolute;
     top: 0;
@@ -58,26 +51,60 @@ form {
 }
 
 
-body {
-    color: #03a203;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: #259d04;
-    padding: 10px;
-}
-.grid-item {
-    background-color: #000000;
-    border: 1px solid rgb(37, 157, 4);
-    padding: 20px;
-    font-size: 30px;
+.tableChoice table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
     text-align: center;
 }
-.option-container {
-    grid-template-columns: auto auto;
-    border: 1px solid rgb(37, 157, 4);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+
+.tableChoice th{
+    background: #de7c5b;
+    color: white;
+    padding: 10px 20px;
+}
+
+.tableChoice td:first-child {
+    color: white;
+    padding: 10px 20px;
+}
+
+.tableChoice th {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+.tableChoice td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+.tableChoice td {
+    background: #b6b2b2;
+}
+
+.tableChoice th:first-child, td:first-child {
+    text-align: left;
+}
+
+
+
+.tableChoiceButton {
+    margin-top: 16px;
+    font-family: FontAwesome;
+    height: 42px;
+    width: 42px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: none;
+    outline: none;
+    background: transparent;
 }
