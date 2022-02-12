@@ -6,6 +6,8 @@
       --default-border-color: #808080;
       --default-text-color: #000000;
       --default-background-color: #ffffff;
+      --addtional-background-color: #d0cdcd;
+      --search-button-color: #87cde7;
     }
     body {
       color: var(--default-text-color);
@@ -18,9 +20,17 @@
       grid-template-columns: 1.8fr 300px;
       padding: 2px;
     }
-    .grid-item {
+    .left-main-part {
       height: 100%;
       background-color: var(--default-background-color);
+      border: 1px solid var(--default-border-color);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .right-main-part {
+      height: 100%;
+      background-color: var(--addtional-background-color);
       border: 1px solid var(--default-border-color);
       padding: 20px;
       font-size: 30px;
@@ -41,9 +51,9 @@
     .button-search {
       border: 1px solid var(--default-border-color);
       padding: 20px;
-      background-color: var(--default-background-color);
+      background-color: var(--search-button-color);
       color: var(--default-text-color);
-      font-size: 16px;
+      font-size: 20px;
       margin: 4px 2px;
       cursor: pointer;
     }
@@ -52,7 +62,7 @@
 <body>
 
 <div class="grid-container">
-  <div class="grid-item">
+  <div class="left-main-part">
     <div class="item">
       <br>test name : test info</br>
     </div>
@@ -75,7 +85,7 @@
       <br>test name : test info</br>
     </div>
   </div>
-  <div class="grid-item">
+  <div class="right-main-part">
     <div class="option-container">
       <strong>Discs</strong>
     </div>
@@ -102,7 +112,7 @@
     </div>
     <div class="option-container">
       <button type="button" class="button-search">
-        <strong>Search!</strong>
+        <strong>Search</strong>
       </button>
     </div>
 
