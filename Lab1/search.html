@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      color: #03a203;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      background-color: #259d04;
+      padding: 10px;
+    }
+    .grid-item {
+      background-color: #000000;
+      border: 1px solid rgb(37, 157, 4);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .option-container {
+      grid-template-columns: auto auto;
+      border: 1px solid rgb(37, 157, 4);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item">1
+  </div>
+  <div class="grid-item">
+    <div class="option-container">
+      <form>
+        <label for="student">1000GB</label>
+        <input type="radio" name="Occupation" id="student" value="student"><br>
+
+        <label for="business">500GB</label>
+        <input type="radio" name="Occupation" id="business" value="business"><br>
+
+        <label for="other">250GB</label>
+        <input type="radio" name="Occupation" id="other" value="other">
+      </form>
+    </div>
+    <div class="option-container">
+
+    </div>
+    <div class="option-container">
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
