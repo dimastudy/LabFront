@@ -1,7 +1,7 @@
 .topName {
     font-size: 24px;
     color: black;
-
+    margin-left: 24px;
 }
 
 .lineStyle {
@@ -19,16 +19,17 @@
     border-color: gray;
 }
 
-* {box-sizing: border-box;}
+/** {box-sizing: border-box;}*/
 body{margin: 0;}
-div {padding: 30px 0}
+div {padding: 8px 0}
 form {
     position: relative;
-    width: 300px;
+    width: 720px;
     margin: 0 auto;
 }
 .d3 {background: #b6b2b2;}
 .d3 form {
+    margin-left: 24px;
     background: #A3D0C3;
 }
 .d3 input, .d3 button {
@@ -54,4 +55,29 @@ form {
     font-family: FontAwesome;
     font-size: 16px;
     color: #F9F0DA;
+}
+
+
+body {
+    color: #03a203;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #259d04;
+    padding: 10px;
+}
+.grid-item {
+    background-color: #000000;
+    border: 1px solid rgb(37, 157, 4);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.option-container {
+    grid-template-columns: auto auto;
+    border: 1px solid rgb(37, 157, 4);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
