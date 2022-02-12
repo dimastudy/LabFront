@@ -12,5 +12,3 @@ const shit = {
         alert(this.shitLength + this.shitSmell.smellCount.toString() + this.shitSmell.smellFuck)
     }
 }
-
-shit.shitInfo()
